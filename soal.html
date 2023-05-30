@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="style/style2.css">
+  <link rel="icon" href="img/ikon.png">
+  <title>JATURA</title>
+
+</head>
+
+<body id="soal">
+
+  <script src="js/jscript2.js"></script>
+
+  <!--Navigasi Menu-->
+
+  <div class="topnav" id="myTopnav">
+    <img class="logo" src="img/logo.png" alt="Jatura Logo" width="50px">
+    <a href="#soal" class="active">Latihan Soal</a>
+    <div class="dropdown">
+      <button class="dropbtn">Materi
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="abjad.html">Materi Abjad</a>
+        <a href="tandabc.html">Materi Tanda Baca</a>
+      </div>
+    </div>
+    <a href="index.html">Beranda</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!--Latihan Soal-->
+  <div class="w3-container">
+    <h2 align="center"><b>Latihan Soal</b></h2>
+    <p>Ketentuan dalam mengerjakan soal : </p>
+    <p>1. Dibaca sesuai dengan isi soal yang tercantum.</p>
+    <p>2. Perhatikan tanda baca!</p><br>
+    <h4><b>Pertanyaan : </b></h4>
+    <div class="card position-absolute top-50 start-50 translate-middle border p-5">
+      <form onsubmit="coba()">
+        <p>Tuliskan ulang kalimat berikut pada kotak yang telah disediakan!</p>
+        <h4>1. </h4>
+        <audio controls>
+          <source src="/img/ibu.mp3" type="audio/mpeg">
+        </audio><br>
+        <!-- <input type="text" name="" id="jwb1"> -->
+        <textarea name="" id="jwb1" cols="30" rows="5" class="form-control mb-4"></textarea><br>
+        <h4>2. </h4>
+        <audio controls>
+          <source src="/img/gina.mp3" type="audio/mpeg">
+        </audio><br>
+        <textarea name="" id="jwb2" cols="30" rows="5" class="form-control mb-4"></textarea><br>
+        <h4>3. </h4>
+        <audio controls>
+          <source src="/img/pelangi.mp3" type="audio/mpeg">
+        </audio><br>
+        <textarea name="" id="jwb3" cols="30" rows="5" class="form-control mb-4"></textarea><br>
+        <h4>4. </h4>
+        <audio controls>
+          <source src="/img/lihat.mp3" type="audio/mpeg">
+        </audio><br>
+        <textarea name="" id="jwb4" cols="30" rows="5" class="form-control mb-4"></textarea><br>
+        <h4>5. </h4>
+        <audio controls>
+          <source src="/img/minumannya.mp3" type="audio/mpeg">
+        </audio><br>
+        <textarea name="" id="jwb5" cols="30" rows="5" class="form-control mb-4"></textarea><br><br>
+        <button class="btn btn-primary">Kirim</button>
+      </form>
+    </div>
+
+    <script src ="soal.js"></script>
+  </div> 
+</body>
+
+<br>
+<br>
+<br>
+<!-- Footer -->
+<footer class="w3-container w3-theme-dark w3-padding-16">
+  <h3>Hubungi Kami</h3>
+  <h6 class="fa fa-whatsapp"> 0896-0895-5346</h6><br>
+  <h6 class="fa fa-envelope-o"> khanifsalamah01@gmail.com</h6><br>
+  <h6 class="fa fa-map-marker"> Desa Gunungmujil Rt 02 Rw 02, Kecamatan Kuwarasan, Kabupaten Kebumen, Jawa Tengah</h6>
+
+</footer>
+
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4><b>Ikuti Sosial Media Kami</b></h4>
+  <a class="w3-button w3-large w3-blue" href="https://wa.me/qr/ZPY3SSEZRK2DF1" title="Whatsapp"><i
+      class="fa fa-whatsapp"></i></a>
+  <a class="w3-button w3-large w3-blue" href="mailto:khanifsalamah01@gmail.com" title="Google +"><i
+      class="fa fa-envelope-o"></i></a>
+  <a class="w3-button w3-large w3-blue" href="https://goo.gl/maps/X68yzqxsVRikuuze8" title="Google +"><i
+      class="fa fa-map-marker"></i></a>
+
+  <p>JATURA by <a href="#" target="_blank">kharafas</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-blue w3-hide-small">Kembali ke Atas</span>
+    <a class="w3-button w3-theme" href="#soal"><span class="w3-xlarge">
+        <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+</html>
